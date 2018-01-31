@@ -14,7 +14,7 @@ public class Main {
         while (skaicius != 0) {
             System.out.println("Iveskite skaiciu: ");
             skaicius = sc.nextInt();
-            suma = suma + skaicius;
+            suma += skaicius;
         }
         System.out.println("Ivestu skaiciu suma: " + suma);
     }
